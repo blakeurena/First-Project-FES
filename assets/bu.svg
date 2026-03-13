@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-labelledby="title desc">
+  <title id="title">BU Monogram Logo</title>
+  <desc id="desc">A bold geometric monogram featuring the initials BU.</desc>
+  <defs>
+    <mask id="diagonalCut">
+      <rect width="1200" height="800" fill="white"/>
+      <path d="M430 760 L600 760 L860 0 L690 0 Z" fill="black"/>
+    </mask>
+  </defs>
+
+  <g fill="#111111" mask="url(#diagonalCut)">
+    <!-- B -->
+    <path d="
+      M40 0
+      L355 0
+      Q455 0 525 68
+      Q585 126 585 208
+      Q585 270 548 318
+      Q525 349 482 376
+      Q556 408 592 474
+      Q615 516 615 575
+      Q615 667 545 734
+      Q476 800 363 800
+      L40 800
+      L40 0
+      Z
+
+      M205 145
+      L205 300
+      L330 300
+      Q375 300 399 279
+      Q420 260 420 224
+      Q420 188 396 166
+      Q370 145 323 145
+      L205 145
+      Z
+
+      M205 445
+      L205 625
+      L352 625
+      Q401 625 427 600
+      Q450 579 450 540
+      Q450 500 424 473
+      Q397 445 348 445
+      L205 445
+      Z" fill-rule="evenodd"/>
+
+    <!-- U -->
+    <path d="
+      M620 0
+      L785 0
+      L785 580
+      Q785 625 815 625
+      L970 625
+      Q1000 625 1000 580
+      L1000 0
+      L1165 0
+      L1165 610
+      Q1165 708 1103 754
+      Q1048 800 960 800
+      L825 800
+      Q738 800 682 754
+      Q620 704 620 610
+      L620 0
+      Z"/>
+  </g>
+</svg>
